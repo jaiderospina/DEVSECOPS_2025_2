@@ -1,6 +1,11 @@
 ## Ingeniería Inversa en el Contexto DevSecOps
 
-! [](reversa.jpg)
+<p align="center">
+  <img src="reversa.jpg" width="400"/>
+</p>
+
+
+
 La **Ingeniería Inversa** (Reverse Engineering) es el proceso de analizar un producto o sistema para comprender su funcionamiento interno, diseño y especificaciones, extrayendo el conocimiento y la información de la forma final del producto, sin tener acceso a los planos, código fuente original o documentación inicial.
 
 En el contexto del software y la ciberseguridad, la ingeniería inversa implica típicamente el análisis del **código máquina** o el **código compilado** de una aplicación para reconstruir su lógica de alto nivel, los algoritmos que utiliza, el flujo de datos y las interacciones con el sistema operativo y otros componentes. Esto se logra mediante técnicas como el **desensamblaje** (transformar código máquina en lenguaje ensamblador) y la **descompilación** (transformar código ensamblador o bytecode en un lenguaje de alto nivel).
@@ -50,3 +55,4 @@ Las herramientas de ingeniería inversa son esenciales para los analistas de seg
 | **OllyDbg / x64dbg** | Depuradores de nivel de ensamblador | Análisis dinámico (paso a paso de la ejecución), manipulación de registros y memoria. | Debugging de vulnerabilidades en tiempo de ejecución, comprensión del flujo de ejecución del *malware* o *exploits*. |
 
 | **Apktool / JADX** | Herramientas específicas para Android/Java | Descompilación de APKs y archivos DEX/JAR a código fuente Java. | Análisis de seguridad de aplicaciones móviles para identificar código débil, claves codificadas o vulnerabilidades de permisos. |
+
