@@ -442,6 +442,3 @@ D:\DevSecOps\data\wp
 
 ---
 
-**script PowerShell automatizado** (`setup.ps1`) que ejecute todos estos pasos automáticamente (crear estructura, .env, docker-compose.yml y levantar los contenedores).
-
-
