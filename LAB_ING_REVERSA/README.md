@@ -295,11 +295,6 @@ Se identificaron y corrigieron varios bugs en el código fuente:
 
 ## 🚀 Guía Paso a Paso para Ejecutar el Contenedor
 
-### Prerrequisitos
-- Docker instalado y ejecutándose en tu sistema
-- Conexión a internet para descargar la imagen
-
-### Método 1:
 #### Paso 1: Descargar la Imagen
 ```bash
 # Descargar la imagen desde Docker Hub
@@ -332,8 +327,9 @@ docker stop hatsh-devsecops
 docker rm hatsh-devsecops
 ```
 
-#### Paso 4: Disfruta encryptando tus archivos con una version renobada! 
-#### by loiz1 🦊
+#### Paso 4: Disfruta encryptando tus archivos con una version renovada! 
+
+## by loiz1 🦊
 
 
 
@@ -459,6 +455,7 @@ La nueva imagen Docker mauriciovergara/hat-sh-laboratoriouniminuto:latest está 
 Este proyecto demostró con éxito el ciclo completo de DevSecOps: tomar una aplicación de código abierto, identificar sus debilidades (tanto en el código como en la infraestructura) a través de un análisis de seguridad, y aplicar mitigaciones correctas para remediar el 100% de las vulnerabilidades críticas.
 
 El resultado es un artefacto final (imagen Docker) que no solo está personalizado, sino que también es verificablemente más seguro que el original, listo para un despliegue confiable en producción.
+
 
 
 
