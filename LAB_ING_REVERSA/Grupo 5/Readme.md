@@ -25,14 +25,6 @@ https://github.com/loiz1/Hat.sh_by-Grupo5
 ### Descripción del Proyecto
 Hat.sh es una aplicación web de código abierto para cifrado y descifrado de archivos en el navegador, construida con Next.js y React. La aplicación utiliza WebAssembly y la biblioteca libsodium para operaciones criptográficas del lado del cliente.
 
-
-**Componentes principales identificados:**
-- `src/components/`: Componentes React principales (EncryptionPanel, DecryptionPanel, Hero, etc.)
-- `pages/`: Páginas Next.js
-- `public/`: Archivos estáticos e imágenes
-- `service-worker/`: Service Worker para operaciones criptográficas
-- `locales/`: Traducciones multiidioma
-
 ### Tecnologías Utilizadas
 - **Frontend**: Next.js 12.1.6, React 17.0.2
 - **UI**: Material-UI v4
@@ -44,7 +36,7 @@ Hat.sh es una aplicación web de código abierto para cifrado y descifrado de ar
 
 ### Resumen Ejecutivo del Análisis
 
-**Fecha del análisis:** 8 de Noviembre, 2025
+**Fecha del análisis:** 3 de Noviembre, 2025
 **Versión analizada:** 2.3.6
 **Tipo de análisis:** SAST (Static Application Security Testing)
 **Repositorio:** hat.sh/
@@ -634,3 +626,4 @@ El proceso de hardening de hat.sh ha sido exitoso, transformando una aplicación
 ####  Disfruta encryptando tus archivos con una version renovada! 
 
 #### by Grupo 5 🦊](https://github.com/loiz1/Hat.sh_by-Grupo5/blob/main/Readme.md)
+
