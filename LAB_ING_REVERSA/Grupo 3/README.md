@@ -10,6 +10,11 @@ El objetivo fue tomar la aplicación original, realizar un análisis de vulnerab
 
 Se realizó un análisis exhaustivo de la estructura de hat.sh para comprender su funcionamiento, dependencias y dónde se encontraban los elementos a modificar.
 
+### Repositorio Original:
+-  Repositorio de Grupo 3: https://github.com/MauricioVergaraG/DevSecOps-Lab-Reversa
+-  Docker Hub Grupo 3: https://hub.docker.com/r/mauriciovergara/hat-sh-laboratoriouniminuto
+-  Integrandes: Cristian Criales, Fernanada Garzon, Luis Mayorga, Mauricio Vergara
+
 - **Tecnologías Identificadas:**
   - **Frontend:** Next.js v12 (React)
   - **Backend:** Nginx (servido estático desde un contenedor Docker)
@@ -117,5 +122,6 @@ La nueva imagen Docker mauriciovergara/hat-sh-laboratoriouniminuto:latest está 
 ## **7\. Conclusiones**
 
 Este proyecto demostró con éxito el ciclo completo de DevSecOps: tomar una aplicación de código abierto, identificar sus debilidades (tanto en el código como en la infraestructura) a través de un análisis de seguridad, y aplicar mitigaciones correctas para remediar el 100% de las vulnerabilidades críticas.
+
 
 El resultado es un artefacto final (imagen Docker) que no solo está personalizado, sino que también es verificablemente más seguro que el original, listo para un despliegue confiable en producción.
