@@ -1,2 +1,3 @@
-Docker HUB: 
-Git HUB: https://github.com/javierprias/hat.sh-grupo2/blob/master/README.md
+Docker HUB: https://hub.docker.com/r/jonateven12/hat2.sh
+
+Git HUB: https://github.com/jonateven/hat2.sh
