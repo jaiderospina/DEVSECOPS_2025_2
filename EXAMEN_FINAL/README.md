@@ -27,6 +27,7 @@ Diseñar, implementar, desplegar y operar un pipeline de Integración Continua, 
 5.  **Desplegar** la aplicación en un orquestador de contenedores (ej. K3s o Docker Swarm) utilizando Infraestructura como Código (IaC).
 6.  **Establecer un sistema de monitoreo** de seguridad y rendimiento en tiempo real para la aplicación en producción.**Opcional**
 
+# **NOTA**  Las herramientas, librerías o framework son totalmente de libre escogencia, pudiendo incluso reutilizarse cualquier otro proyecto open source existenta.
 ---
 
 ### 3. Descripción de la Aplicación "Centinela"
@@ -112,3 +113,4 @@ Este es el núcleo del trabajo. El alumno deberá implementar y documentar cada 
     * Una demostración en vivo de un *commit* de código (ej. introduciendo una vulnerabilidad a propósito), mostrando cómo el pipeline lo detecta (falla el *build*), cómo se corrige, y cómo se despliega exitosamente hasta producción, finalizando con la visualización en los dashboards de monitoreo.
   
       **NOTA** Se mencion gitlab, el cual en nuestro curso se reemplazó por github.
+
