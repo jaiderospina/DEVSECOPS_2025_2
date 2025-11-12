@@ -22,10 +22,10 @@ Diseñar, implementar, desplegar y operar un pipeline de Integración Continua, 
 #### Objetivos Específicos
 1.  **Desarrollar la Aplicación "Centinela"** con las funcionalidades de web scraping, análisis de sentimiento básico e integración de APIs sociales.
 2.  **Contenerizar** todos los componentes de la aplicación (Frontend, Backend, Base de Datos, Workers) usando Docker.
-3.  **Implementar un pipeline CI/CD** robusto (ej. GitLab CI, Jenkins) que automatice la construcción, prueba y despliegue.
+3.  **Implementar un pipeline CI/CD** robusto (ej. GitLab CI, Jenkins) que automatice la construcción, prueba y despliegue. **Opcional**
 4.  **Integrar herramientas de seguridad FOSS** en *cada* etapa del pipeline (Shift-Left Security).
 5.  **Desplegar** la aplicación en un orquestador de contenedores (ej. K3s o Docker Swarm) utilizando Infraestructura como Código (IaC).
-6.  **Establecer un sistema de monitoreo** de seguridad y rendimiento en tiempo real para la aplicación en producción.
+6.  **Establecer un sistema de monitoreo** de seguridad y rendimiento en tiempo real para la aplicación en producción.**Opcional**
 
 ---
 
@@ -104,8 +104,11 @@ Este es el núcleo del trabajo. El alumno deberá implementar y documentar cada 
     * **Modelado de Amenazas:** Salidas de Threat Dragon (DFDs y amenazas identificadas).
     * **Implementación:** Explicación de la elección de cada herramienta FOSS y su integración en el ciclo.
     * **Resultados de Seguridad:** Reportes de ejemplo generados por Gitleaks, Trivy, ZAP y Falco, y cómo se gestionaron (o se gestionarían) los hallazgos.
-    * **Monitoreo:** Capturas de pantalla de los dashboards de Grafana/Kibana.
+    * **Monitoreo:** Capturas de pantalla de los dashboards de Grafana/Kibana. **Opcional - No requerido**
     * **Conclusiones:** Desafíos encontrados (ej. limitaciones de APIs sociales) y lecciones aprendidas.
 
-3.  **Video-Demostración (15 min):**
+3.  **Video-Demostración (15 min):**Opcional**
+
     * Una demostración en vivo de un *commit* de código (ej. introduciendo una vulnerabilidad a propósito), mostrando cómo el pipeline lo detecta (falla el *build*), cómo se corrige, y cómo se despliega exitosamente hasta producción, finalizando con la visualización en los dashboards de monitoreo.
+  
+      **NOTA** Se mencion gitlab, el cual en nuestro curso se reemplazó por github.
