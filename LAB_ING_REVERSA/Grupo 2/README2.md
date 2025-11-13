@@ -1,171 +1,125 @@
-<p align="center">
-  <a href="#" rel="noopener">
- <img src="https://i.imgur.com/8b0GE2B.png" width="180"></a>
-</p>
+📘 Presentación del Proyecto
+El proyecto Hat.sh Reforged tiene como finalidad analizar, fortalecer y personalizar la aplicación web de cifrado de archivos Hat.sh, una herramienta FOSS (Free and Open Source Software) desarrollada con tecnologías modernas como Next.js y libsodium.js.
+El proceso incluyó prácticas de ingeniería inversa, evaluación de vulnerabilidades, ajustes de seguridad (hardening) y la creación de una imagen Docker personalizada y reforzada lista para despliegue.
 
-<a href="https://hat.sh" style="color:#000"><h3 align="center">hat.sh</h3></a>
+⚙️ 1. Análisis e Ingeniería Inversa
+Se inició con la revisión de la aplicación original desde su repositorio oficial:
+🔗 https://github.com/sh-dv/hat.sh
+El propósito fue comprender su arquitectura y componentes principales:
 
-<div align="center">
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)](#)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](#)
-[![CodeQL](https://github.com/sh-dv/hat.sh/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/sh-dv/hat.sh/actions/workflows/codeql-analysis.yml)
-[![Node.js CI](https://github.com/sh-dv/hat.sh/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/sh-dv/hat.sh/actions/workflows/node.js.yml)
-[![Snyk](https://github.com/sh-dv/hat.sh/actions/workflows/snyk.yml/badge.svg)](https://github.com/sh-dv/hat.sh/actions/workflows/snyk.yml)
+Frontend: Next.js (React v12)
 
-</div>
 
----
+Dependencias clave: libsodium-wrappers, @material-ui/core
 
-[Hat.sh](https://hat.sh) is a web app that provides secure local file encryption in the browser. It's fast, secure, and uses modern cryptographic algorithms with chunked AEAD stream encryption/decryption.
 
-V2 of hat.sh introduced memory efficient in-browser large file chunked encryption using streams with libsodium.
+Servidor: Contenedor Nginx que sirve archivos estáticos
 
-## Usage
 
-![how-to-use-gif](https://i.imgur.com/NbAZOgP.gif)
+Archivos importantes:
 
-<br>
 
-## Features
+/src/: componentes y lógica de la interfaz.
 
-### Security
 
-- XChaCha20-Poly1305 - for symmetric encryption.
-- Argon2id - for password-based key derivation.
-- X25519 - for key exchange.
+/public/: recursos estáticos (logos, íconos, etc.).
 
-The libsodium library is used for all cryptographic algorithms.
 
-### Privacy
+Dockerfile: proceso de construcción de la imagen.
 
-- The app runs locally in your browser.
-- No data is ever collected or sent to anyone.​
 
-### Functionality
+package.json: dependencias y scripts de ejecución.
 
-- Secure multiple file encryption/decryption with passwords or keys.
-- Secure random password generation.
-- Asymmetric key pair generation.
-- Authenticated key exchange.
-- Password strength estimation.
 
-<br>
 
-## Offline Use
 
-The app can be easily self hosted, please follow the [installation](https://hat.sh/about/#installation) instructions.
+Durante esta fase se identificaron las rutas donde sería necesario modificar elementos visuales (branding) y textos institucionales.
 
-<br>
+🔍 2. Análisis de Vulnerabilidades
+Para evaluar el nivel de seguridad del proyecto, se realizaron análisis con distintas herramientas FOSS:
 
-## Browser Compatibility
 
-We officially support the last two versions of every major browser. Specifically, we test on the following
+npm audit: para detectar vulnerabilidades en dependencias JavaScript.
 
-- **Chrome** on Windows, macOS, and Linux , Android
-- **Firefox** on Windows, macOS, and Linux
-- **Safari** on iOS and macOS
-- **Edge** on Windows
 
-Safari and Mobile browsers are limited to single 1GB files, due to lack of support with server-worker fetch api.
+hadolint: para revisar buenas prácticas del Dockerfile.
 
-<br>
 
-## Official running instances of the app
+Trivy: para analizar vulnerabilidades en la imagen base de Docker.
 
-| #   | URL                                       |
-| --- | ----------------------------------------- |
-| 1   | [hat.sh](https://hat.sh/)                 |
-| 2   | [hat.now.sh](https://hat.now.sh/)         |
-| 2   | [hat.vercel.app](https://hat.vercel.app/) |
 
-<br>
+Docker Scout: para complementar los resultados y comparar versiones más seguras de las dependencias.
 
-## Donations
 
-The project is maintained in my free time. Donations of any size are appreciated :
+Resultados iniciales:
 
-<br>
 
-<div>
+Vulnerabilidades críticas relacionadas con dependencias antiguas de Node.js.
 
-<strong>Crypto</strong>
 
-  <table>
-    <tr>
-      <th></th>
-      <th>Coin</th>
-      <th>Address</th>
-    </tr>
-    <tr>
-      <td><img src="https://i.imgur.com/utSCHpB.png" /></td>
-      <td>Monero</td>
-      <td style="word-break: break-word">
-        <code
-          >84zQq4Xt7sq8cmGryuvWsXFMDvBvHjWjnMQXZWQQRXjB1TgoZWS9zBdNcYL7CRbQBqcDdxr4RtcvCgApmQcU6SemVXd7RuG</code
-        >
-      </td>
-    </tr>
-    <tr>
-      <td><img src="https://i.imgur.com/imvYFLR.png" /></td>
-      <td>Bitcoin</td>
-      <td><code>bc1qlfnq8nu2k84h3jth7a27khaq0p2l2gvtyl2dv6</code></td>
-    </tr>
-    <tr>
-      <td><img src="https://i.imgur.com/a4vLbjm.png" /></td>
-      <td>Ethereum</td>
-      <td><code>0xF6F204B044CC73Fa90d7A7e4C5EC2947b83b917e</code></td>
-    </tr>
-  </table>
+Uso de etiquetas flotantes en Docker (FROM node:alpine), lo cual generó fallas de compatibilidad.
 
-  <br>
-  
-  <strong>Kofi</strong>
 
-[https://ko-fi.com/shdvapps](https://ko-fi.com/shdvapps)
+Librerías del sistema con fallas conocidas en la imagen de Nginx.
 
-<strong>Open Collective</strong>
 
-[https://opencollective.com/hatsh](https://opencollective.com/hatsh)
 
-</div>
+🛠️ 3. Fortalecimiento (Hardening)
+A partir de los hallazgos, se implementaron las siguientes acciones:
 
-<br>
-<br>
 
-## Social
+Compatibilidad: fijar la versión de Node.js en node:18-alpine para asegurar estabilidad.
 
-- [Reddit](https://reddit.com/r/hatsh)
 
-<br>
+Actualización de dependencias: ejecución de npm audit fix para corregir vulnerabilidades.
 
-## Acknowledgements
 
-- Everyone who supported the project.
-- [Samuel-lucas6](https://github.com/samuel-lucas6) from the [Kryptor](https://github.com/samuel-lucas6/Kryptor) project for being helpful and doing a lot of beta testing.
-- [stophecom](https://github.com/stophecom) from the [Scrt.link](https://scrt.link/) project for translating to German.
-- [bbouille](https://github.com/bbouille) for translating to French.
-- [qaqland](https://github.com/qaqland) for translating to Chinese.
-- [Ser-Bul](https://github.com/Ser-Bul) for translating to Russian.
-- [matteotardito](https://github.com/matteotardito) for translating to Italian.
-- [t0mzSK](https://github.com/t0mzSK) for translating to Slovak.
-- [Xurdejl](https://github.com/Xurdejl) for translating to Spanish.
-- [Franatrtur](https://github.com/Franatrtur) for translating to Czech.
-- [darkao](https://github.com/darkao) for translating to Turkish.
-- [Frank7sun](https://github.com/Frank7sun) for translating to Japanese.
+Optimización del Dockerfile:
+RUN apk update && apk upgrade && rm -rf /var/cache/apk/*
+ENV NEXT_TELEMETRY_DISABLED=1
 
-<br>
 
-## Credits
 
-[libsodium.js](https://github.com/jedisct1/libsodium.js)
+Verificación final: se confirmó que no existían vulnerabilidades críticas tras aplicar los parches.
 
-[next.js](https://nextjs.org/)
 
-[material-ui](https://material-ui.com/)
 
-<br>
+🎨 4. Personalización del Branding
+Una vez la aplicación fue estabilizada y segura, se procedió a personalizar los elementos visuales:
 
-## License
 
-[Copyright (c) 2022 sh-dv](https://github.com/sh-dv/hat.sh/blob/master/LICENSE)
+Reemplazo de logos y colores en la carpeta public/assets2/.
+
+
+Modificación de textos en los archivos:
+
+
+src/components/Footer.js → leyendas personalizadas.
+
+
+locales/index.js → mensaje institucional propio.
+
+
+
+
+Estas modificaciones se probaron en un entorno de desarrollo local con:
+docker run -v $(pwd):/app node:18-alpine npm run dev
+
+
+🧱 5. Construcción y Despliegue
+Se creó una nueva imagen Docker endurecida y personalizada.
+Pasos:
+# Construir la imagen
+docker build -t hat-sh-reforged .
+
+# Ejecutar localmente
+docker run -d -p 8080:80 --name hatsh-app hat-sh-reforged
+
+La aplicación quedó disponible en http://localhost:8080 y lista para subir a un repositorio público (Docker Hub).
+
+🧩 6. Conclusiones
+El desarrollo de Hat.sh Reforged permitió aplicar los principios de DevSecOps de forma práctica, combinando ingeniería inversa, análisis de vulnerabilidades, mitigación y despliegue seguro.
+El resultado fue una imagen Docker funcional, sin vulnerabilidades críticas y con branding propio, demostrando el valor de integrar la seguridad dentro del ciclo de desarrollo desde las primeras etapas.
+
+¿Quieres que te ayude a agregar una sección final de referencias y herramientas utilizadas (por ejemplo, Visual Studio Code, Docker Desktop, Trivy, Hadolint, npm audit, etc.) para completar el formato académico?
