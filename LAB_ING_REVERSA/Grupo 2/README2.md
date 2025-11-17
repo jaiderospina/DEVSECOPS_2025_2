@@ -25,6 +25,7 @@ Fortalecer la aplicación original **Hat.sh** mediante un proceso integral que i
 
 ## 🧱 Tecnologías Utilizadas  
 
+- **JavaScript**  
 - **HTML5 / CSS3**  
 - **Node.js**  
 - **Docker**  
@@ -81,5 +82,6 @@ Este proyecto se distribuye bajo los términos de la **licencia MIT**, respetand
 ## 👥 Créditos  
 
 Desarrollado por el **Grupo 2** como parte del proceso de análisis, refuerzo y despliegue seguro de aplicaciones FOSS bajo un enfoque **DevSecOps**.
+
 
 
