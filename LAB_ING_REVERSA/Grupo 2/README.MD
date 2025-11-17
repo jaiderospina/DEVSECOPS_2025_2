@@ -1,3 +1,4 @@
-Docker HUB: https://hub.docker.com/r/jonateven12/hat2.sh
+## 🔗 Repositorios del Proyecto  
 
-Git HUB: https://github.com/jonateven/hat2.sh
+🐳 **Docker Hub:** [(https://hub.docker.com/r/javierprias/hatsh-ing_inversa_grupo2) ](https://hub.docker.com/r/javierprias/hatsh-ing_inversa_grupo2)
+💻 **GitHub:** [(https://github.com/javierprias/hat.sh-grupo2.git)  ](https://github.com/javierprias/hat.sh-grupo2.git)
