@@ -30,7 +30,8 @@ Fortalecer la aplicación original **Hat.sh** mediante un proceso integral que i
 - **Docker**  
 - **DevSecOps Tools (SAST & SCA)**  
 - **GitHub Actions**  
-- **Docker Hub**  
+- **Docker Hub**
+- **Docker Scout**
 
 ---
 
@@ -80,4 +81,5 @@ Este proyecto se distribuye bajo los términos de la **licencia MIT**, respetand
 ## 👥 Créditos  
 
 Desarrollado por el **Grupo 2** como parte del proceso de análisis, refuerzo y despliegue seguro de aplicaciones FOSS bajo un enfoque **DevSecOps**.
+
 
