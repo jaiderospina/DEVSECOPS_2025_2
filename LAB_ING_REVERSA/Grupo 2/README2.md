@@ -1,11 +1,11 @@
-# 🧩 Proyecto: Hat.sh Reforged  
+# 🧩 Proyecto: Hat.sh - Ingenieria Inversa
 ### 👥 Grupo 2  
 
 ---
 
 ## 💡 Presentación del Proyecto  
 
-**Hat.sh Reforged** es una versión reforzada y personalizada de la aplicación web de código abierto [Hat.sh](https://github.com/sh-dv/hat.sh), centrada en la implementación de prácticas **DevSecOps** y en la mejora tanto de la **seguridad** como de la **interfaz gráfica**.  
+**Hat.sh Grupo 2** es una versión reforzada y personalizada de la aplicación web de código abierto [Hat.sh](https://github.com/sh-dv/hat.sh), centrada en la implementación de prácticas **DevSecOps** y en la mejora tanto de la **seguridad** como de la **interfaz gráfica**.  
 
 El objetivo del proyecto es crear una versión más segura, optimizada y profesional, lista para ser desplegada en entornos de producción mediante Docker.  
 
@@ -13,13 +13,14 @@ El objetivo del proyecto es crear una versión más segura, optimizada y profesi
 
 ## ⚙️ Objetivo General  
 
-Fortalecer la aplicación original **Hat.sh** mediante un proceso integral que incluye:  
+El proyecto busca transformar Hat.sh en una aplicación reforzada, mediante:
 
-- Análisis de vulnerabilidades en el código fuente (**SAST**) y dependencias (**SCA**).  
-- Mitigación de riesgos detectados.  
-- Incorporación de buenas prácticas DevSecOps.  
-- Rediseño visual de la interfaz, manteniendo una experiencia moderna y segura.  
-- Generación de una **imagen Docker** reforzada y disponible públicamente.  
+- Identificación y mitigación de vulnerabilidades en dependencias y código fuente.  
+- Implementación de buenas prácticas DevSecOps en cada fase del ciclo de vida.  
+- Construcción de una imagen Docker endurecida, liviana y segura.  
+- Rediseño completo de la interfaz gráfica para ofrecer una experiencia moderna y orientada a ciberseguridad.  
+- Publicación de una imagen final optimizada en Docker Hub lista para despliegue.
+
 
 ---
 
@@ -30,7 +31,7 @@ Fortalecer la aplicación original **Hat.sh** mediante un proceso integral que i
 - **Node.js**  
 - **Docker**  
 - **DevSecOps Tools (SAST & SCA)**  
-- **GitHub Actions**  
+- **PowerShell**  
 - **Docker Hub**
 - **Docker Scout**
 
@@ -38,37 +39,38 @@ Fortalecer la aplicación original **Hat.sh** mediante un proceso integral que i
 
 ## 🧰 Refuerzo de Seguridad  
 
-Durante el análisis y endurecimiento de seguridad, se implementaron las siguientes mejoras:  
+Durante el proceso de análisis, auditoría del código y endurecimiento del contenedor, se aplicaron correcciones clave para mejorar la seguridad, reducir riesgos y optimizar la imagen final.
 
-| Tipo de vulnerabilidad | Riesgo | Acción correctiva aplicada |
-|--------------------------|--------|----------------------------|
-| Dependencias desactualizadas | Medio | Actualización controlada mediante `npm ci` y revisión de `package-lock.json`. |
-| Ejecución como root en contenedor | Alto | Creación de usuario no root (`hat`) y aplicación de permisos mínimos. |
-| Contexto de build innecesario | Bajo | Implementación de `.dockerignore` para reducir superficie de ataque. |
-| Falta de healthcheck | Medio | Incorporación de `HEALTHCHECK` en el Dockerfile para monitoreo activo. |
-| Falta de limpieza post-build | Bajo | Eliminación de paquetes temporales y reducción del tamaño de imagen. |
-| Falta de pipeline de verificación | Medio | Configuración de GitHub Actions para auditar dependencias y validar el build. |
+| Tipo de vulnerabilidad              | Riesgo | Acción correctiva aplicada |
+|------------------------------------|--------|----------------------------|
+| Dependencias desactualizadas       | Medio  | Actualización controlada mediante `npm install --legacy-peer-deps`, auditoría con `npm audit` y verificación con Docker Scout. |
+| Ejecución como root en el contenedor | Alto | Creación del usuario no root `hat` y ejecución del contenedor con permisos mínimos. |
+| Superficie de ataque amplia        | Medio  | Optimización del contexto de build mediante `.dockerignore` para excluir archivos innecesarios. |
+| Falta de verificación del estado del contenedor | Medio | Implementación de `HEALTHCHECK` basado en respuesta HTTP del servicio. |
+| Imagen con capas innecesarias y exceso de tamaño | Bajo | Limpieza de caches, reestructuración del Dockerfile y reducción del tamaño final de la imagen. |
+| Ausencia de pipeline automatizado de seguridad | Medio | Integración de GitHub Actions para revisar dependencias, validar builds y ejecutar análisis automáticos. |
 
 ---
 
 ## 🎨 Interfaz Gráfica (Nueva versión UI)
 
-La interfaz de **Hat.sh Reforged – Grupo 2** fue rediseñada completamente para ofrecer una experiencia visual moderna y coherente con el enfoque **cyber-secure** del proyecto.  
+La interfaz de **Hat.sh Reforged – Grupo 2** fue rediseñada con un enfoque visual moderno y alineado a proyectos orientados a ciberseguridad.
 
 **Principales mejoras:**
-- Tema **oscuro tipo terminal**, con acentos **neón verde-azulados**.  
-- Tipografía **Roboto Mono** para un aspecto técnico y legible.  
-- Botones animados con brillo sutil y efectos de transición.  
-- Diseño **responsive** centrado, adaptado a escritorio y móvil.  
-- Fondo con degradado oscuro y contraste optimizado para accesibilidad.  
-- **Logo textual:** *“Hat.sh Reforged – Grupo 2”*.  
-- **Footer:** `© 2025 Grupo 2 – Hat.sh Reforged | DevSecOps Project`.  
+- Tema oscuro estilo consola, con acentos neón verde–azulados.
+- Tipografía **Roboto Mono** para una estética técnica, minimalista y legible.
+- Botones rediseñados con animaciones fluidas y microinteracciones.
+- Diseño completamente **responsive**, optimizado para escritorio y móvil.
+- Fondo con degradado oscuro que mejora el contraste visual.
+- Nuevo logo textual: *“Hat.sh Reforged – Grupo 2”*.
+- Footer actualizado: `Mejorado por el grupo 2 sh-dv`.
+  
 
 ---
 
 ## 🔗 Repositorios del Proyecto  
 
-🐳 **Docker Hub:** https://hub.docker.com/r/javierprias/hatsh-ing_inversa_grupo2 
+🐳 **Docker Hub:** [(https://hub.docker.com/r/javierprias/hatsh-ing_inversa_grupo2) ](https://hub.docker.com/r/javierprias/hatsh-ing_inversa_grupo2)
 💻 **GitHub:** [(https://github.com/javierprias/hat.sh-grupo2.git)  ](https://github.com/javierprias/hat.sh-grupo2.git)
 
 ---
@@ -82,6 +84,7 @@ Este proyecto se distribuye bajo los términos de la **licencia MIT**, respetand
 ## 👥 Créditos  
 
 Desarrollado por el **Grupo 2** como parte del proceso de análisis, refuerzo y despliegue seguro de aplicaciones FOSS bajo un enfoque **DevSecOps**.
+
 
 
 
