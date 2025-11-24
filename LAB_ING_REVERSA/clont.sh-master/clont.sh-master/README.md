@@ -1,3 +1,10 @@
+# Grupo 6
+LAB_ING_REVERSA - G6
+Repositorio Docker: https://hub.docker.com/r/aven93/hatsh/tags
+Repositorio GitHub: https://github.com/Aven93/G6
+#
+
+
 <p align="center">
   <a href="#" rel="noopener">
  <img src="https://i.imgur.com/8b0GE2B.png" width="180"></a>
@@ -17,12 +24,9 @@
 
 ---
 
-# G6
-LAB_ING_REVERSA - G6
-Repositorio Docker: https://hub.docker.com/r/aven93/hatsh/tags
-Repositorio GitHub: https://github.com/Aven93/G6
 
-V2 of hat.sh introduced memory efficient in-browser large file chunked encryption using streams with libsodium.
+
+
 
 ## Usage
 
