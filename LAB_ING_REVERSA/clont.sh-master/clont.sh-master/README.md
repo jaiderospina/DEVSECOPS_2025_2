@@ -14,6 +14,20 @@ Repositorio GitHub: https://github.com/Aven93/G6
 ![CVE mas Critico escaneado](https://i.imgur.com/gA9CIWA.png) 
 
 
+# Para poner en el .YML
+
+
+
+```yaml
+services:
+  hatsh:
+    image: ghcr.io/aven93/hatsh:latest
+    container_name: hatsh
+    ports:
+      - "3991:80"
+    restart: unless-stopped
+```
+
 
 #
 
