@@ -3,7 +3,19 @@ LAB_ING_REVERSA - G6
 Repositorio Docker: https://hub.docker.com/r/aven93/hatsh/tags
 Repositorio GitHub: https://github.com/Aven93/G6
 #
+<br>Escaneo de vulnerabilidades
 
+![Escaneo de vulnerabilidades](https://i.imgur.com/xN1zCdY.png)
+
+<br>Edicion del archivo YML y subida del container
+![Edicion del archivo YML y subida del container](https://i.imgur.com/2hqtLVd.png)
+
+<br>CVE mas Critico escaneado
+![CVE mas Critico escaneado](https://i.imgur.com/gA9CIWA.png) 
+
+
+
+#
 
 <p align="center">
   <a href="#" rel="noopener">
