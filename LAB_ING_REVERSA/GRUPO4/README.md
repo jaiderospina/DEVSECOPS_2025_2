@@ -16,8 +16,9 @@
 </div>
 
 ---
- README.md – Proyecto DevSecOps Grupo 4 (Versión final)
-  PROYECTO "HAT.SH REFORGED"
+ <a href="https://hat.sh" style="color:#000"><h3 align="center">README.md – Proyecto DevSecOps Grupo 4 (Versión final)</h3></a>
+ <a href="https://hat.sh" style="color:#000"><h3 align="center">PROYECTO "HAT.SH REFORGED"</h3></a>
+  
   
 📘 Introducción
 
@@ -241,17 +242,23 @@ FROM node:25-alpine
 Cambios principales:
 
 Elemento	Archivo	Estado
+
 Logo principal	public/assets/images/logo.png	✔ Reemplazado
+
 Logo DevSecOps	public/assets/images/devsecops-logo.png	✔ Añadido
+
 Título principal	Hero.js	✔ Modificado
+
 Footer	Footer.js	✔ Créditos del Grupo 4
+
 Eliminación donaciones	Footer.js	✔ Eliminado
+
 Enlaces GitHub originales	AppBar.js	✔ Removidos
+
 Mensaje snackbar donaciones	locales/*	✔ Eliminado
 
 5. 🧪 Evidencia Final
 
-Inserta aquí la captura final de tu app:
 <img width="1311" height="948" alt="image" src="https://github.com/user-attachments/assets/8c43cc1b-7e94-49bc-9877-6f0322bb097a" />
 <img width="1024" height="909" alt="image" src="https://github.com/user-attachments/assets/8c669d0b-1174-4be2-b60c-56ad7267a5ae" />
 <img width="1001" height="957" alt="image" src="https://github.com/user-attachments/assets/daba82e9-7123-440b-b66f-f02339399182" />
@@ -259,7 +266,6 @@ Inserta aquí la captura final de tu app:
 <img width="1120" height="703" alt="image" src="https://github.com/user-attachments/assets/675875e2-fbc5-4f06-a857-cfd987571853" />
 <img width="1004" height="597" alt="image" src="https://github.com/user-attachments/assets/64b86b07-42e1-48b4-b8e9-4382e868aef4" />
 
-![HatDotSh Screenshot](./public/assets/images/final-app.png)
 
 6. 🧠 Conclusiones del Proyecto
 
@@ -309,5 +315,6 @@ Repositorio Grupo 4:
 ## License
 
 [Copyright (c) 2022 sh-dv](https://github.com/sh-dv/hat.sh/blob/master/LICENSE)
+
 
 
