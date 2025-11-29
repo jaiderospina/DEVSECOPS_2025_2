@@ -117,6 +117,14 @@ Este es el núcleo del trabajo. El alumno deberá implementar y documentar cada 
 
 ··················································································································
 
+* **Grupo 1**
+* **Nombre del proyecto:** Grupo 1: Proyecto Centinela
+* **Descripción:** Centinela es una plataforma contenerizada diseñada para detectar desinformación mediante scraping, análisis de contenido y verificación con fuentes confiables. Su arquitectura basada en microservicios integra frontend, backend, servicios de scraping, análisis NLP, publicación en redes sociales, base de datos y mensajería asíncrona. El proyecto implementa un pipeline DevSecOps de ciclo completo, incorporando SAST, SCA, escaneo de imágenes, DAST, IaC y seguridad en tiempo de ejecución usando herramientas FOSS. Finalmente, la aplicación se despliega en un entorno orquestado con monitoreo y observabilidad, garantizando un flujo seguro, automatizado y escalable de desarrollo a producción.
+* **Link Github:** [Proyecto completo](https://github.com/M0xX18/Centinela)
+* **Link DockerHub:** [Frontend de la aplicacion] (https://hub.docker.com/r/m0xx25/centinela)
+
+··················································································································
+
 * **Grupo 2**
 * **Nombre del proyecto:** Proyecto Centinela Grupo 2
 * **Descripción:** El Proyecto Centinela es una solución tecnológica diseñada para combatir la desinformación digital mediante la automatización de procesos de vigilancia (OSINT) y análisis de contenido.
@@ -144,4 +152,5 @@ Este es el núcleo del trabajo. El alumno deberá implementar y documentar cada 
  ## https://hub.docker.com/repository/docker/humberto329/centinela2
 
  
+
 
