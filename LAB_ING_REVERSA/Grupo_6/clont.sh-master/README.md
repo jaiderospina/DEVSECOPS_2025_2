@@ -27,8 +27,15 @@ services:
       - "3991:80"
     restart: unless-stopped
 ```
+# Editar imagen central con una personalizada
+imagen utilizada:
+![CVE mas Critico escaneado](https://imgur.com/a/QVqysNw)
+```
 
+Se debe agregar el link de la imagen a la estructura main class del sitio WEB en este caso en la ruta donde este guardado el index del aplicativo dentro del body:
 
+<img src="/assets/images/logo.png" alt="Logo" style="height: 200px; display: block; margin: 0 auto;">
+```
 #
 
 <p align="center">
