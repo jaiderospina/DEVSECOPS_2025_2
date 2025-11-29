@@ -117,12 +117,6 @@ Este es el núcleo del trabajo. El alumno deberá implementar y documentar cada 
 
 ··················································································································
 
-* **Grupo 2**
-* **Nombre del proyecto:** Proyecto Centinela Grupo 2
-* **Descripción:** El Proyecto Centinela es una solución tecnológica diseñada para combatir la desinformación digital mediante la automatización de procesos de vigilancia (OSINT) y análisis de contenido.
-* **Link Github:** https://github.com/javierprias/proyecto-centinela
-* **Link DockerHub:**
-  
 **Grupo 5**
 * Nombre del proyecto: *Scrapii - Scraping Ético con Análisis de Ciberseguridad*
 * Descripción: Scrapii es una aplicación web avanzada de scraping ético que integra análisis profundo de ciberseguridad. Diseñada para desarrolladores, analistas de seguridad y profesionales DevSecOps, la herramienta proporciona un enfoque responsable y técnicamente robusto para el análisis de sitios web.
@@ -132,3 +126,13 @@ Este es el núcleo del trabajo. El alumno deberá implementar y documentar cada 
 
 
 
+**Grupo 3**
+* Nombre del proyecto: *CENTINELA*
+* Descripción: Centinela es una plataforma modular basada en microservicios diseñada para la detección, clasificación y análisis forense de desinformación (Fake News) usando técnicas de scraping, heurística de texto y flujos DevSecOps de seguridad continua.
+* Links:
+Github - (https://github.com/MauricioVergaraG/proyecto-centinela)
+Readme de la APP: https://github.com/MauricioVergaraG/proyecto-centinela/blob/feature/pipeline-optimization/services/frontend/README_APP.md
+Proyecto en DockerHub: 
+* https://hub.docker.com/repository/docker/mauriciovergara/centinela-scraper
+* https://hub.docker.com/repository/docker/mauriciovergara/centinela-frontend/general
+* https://hub.docker.com/repository/docker/mauriciovergara/centinela-api
