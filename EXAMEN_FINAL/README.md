@@ -39,7 +39,16 @@
  ## https://github.com/Humberto776/centinela2
  ## https://hub.docker.com/repository/docker/humberto329/centinela2
 
+ -------------------------------------------------------------------------------------------------------------------------------------------
+ ## Grupo 4 ##
+Nombre del proyecto: Proyecto Centinela: Pipeline DevSecOps Contenerizado para el Análisis de Desinformación y OSINT con Herramientas FOSS.
+Descripción: Centinela es una plataforma de análisis de URLs sospechosas que detecta amenazas, malware y desinformación. Implementa un pipeline DevSecOps completo con herramientas FOSS, integrando seguridad desde la planificación hasta la operación.
+Link Github: https://github.com/drincon12/proyecto-centinela.git
+Link DockerHub: https://hub.docker.com/r/drincon12/proyecto-centinela-backend
+__________________________________________________________________________________________________________________________________
+
  
+
 
 
 
