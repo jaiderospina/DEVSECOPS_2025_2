@@ -129,7 +129,7 @@ Este es el núcleo del trabajo. El alumno deberá implementar y documentar cada 
 * **Nombre del proyecto:** Proyecto Centinela Grupo 2
 * **Descripción:** El Proyecto Centinela es una solución tecnológica diseñada para combatir la desinformación digital mediante la automatización de procesos de vigilancia (OSINT) y análisis de contenido.
 * **Link Github:** https://github.com/javierprias/proyecto-centinela
-* **Link DockerHub:**
+* **Link DockerHub:** https://hub.docker.com/r/javierprias/centinela-scraper y https://hub.docker.com/r/javierprias/centinela-backend
 
 ...............................................................................................................................................................................................
   
@@ -153,6 +153,7 @@ Este es el núcleo del trabajo. El alumno deberá implementar y documentar cada 
  ## https://hub.docker.com/repository/docker/humberto329/centinela2
 
  
+
 
 
 
