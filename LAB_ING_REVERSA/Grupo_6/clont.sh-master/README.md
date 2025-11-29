@@ -29,7 +29,7 @@ services:
 ```
 # Editar imagen central con una personalizada
 imagen utilizada:
-![imagen de referencia](https://imgur.com/a/QVqysNw.png)
+![imagen de referencia](https://imgur.com/evA1dv8.png)
 ```
 
 Se debe agregar el link de la imagen a la estructura main class del sitio WEB en este caso en la ruta donde este guardado el index del aplicativo dentro del body:
