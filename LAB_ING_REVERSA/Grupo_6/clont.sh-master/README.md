@@ -28,12 +28,13 @@ services:
     restart: unless-stopped
 ```
 # Editar imagen central con una personalizada
-imagen utilizada:
-![imagen de referencia](https://imgur.com/evA1dv8.png)
-
 Se agrego otra imagen para reemplazar el icono con la imagen vista anterior, solo modificando la imagen que se encuentra en la ruta: hatsh\src\assets\images (se debe dejar con el mismo nombre para no tener errores) quedaria algo asi:
 
- ![icono](https://imgur.com/a/psts44E.png)
+![icono](https://imgur.com/a/psts44E.png)
+
+
+imagen utilizada:
+![imagen de referencia](https://imgur.com/evA1dv8.png)
 ```
 Se debe agregar el link de la imagen a la estructura main class del sitio WEB en este caso en la ruta donde este guardado el index del aplicativo dentro del body:
 
