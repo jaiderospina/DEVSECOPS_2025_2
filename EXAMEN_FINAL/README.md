@@ -115,3 +115,12 @@ Este es el núcleo del trabajo. El alumno deberá implementar y documentar cada 
       **NOTA** Se mencion gitlab, el cual en nuestro curso se reemplazó por github.
 
 
+··················································································································
+
+**Grupo 5**
+* Nombre del proyecto: *Scrapii - Scraping Ético con Análisis de Ciberseguridad*
+* Descripción: Scrapii es una aplicación web avanzada de scraping ético que integra análisis profundo de ciberseguridad. Diseñada para desarrolladores, analistas de seguridad y profesionales DevSecOps, la herramienta proporciona un enfoque responsable y técnicamente robusto para el análisis de sitios web.
+* Links:
+  Github - (https://github.com/loiz1/scrapii)
+  Dockerhub - (https://hub.docker.com/r/loizzz/web-scrapi)
+
