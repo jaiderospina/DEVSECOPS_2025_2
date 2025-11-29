@@ -167,6 +167,7 @@ ________________________________________________________________________________
 Grupo 3*
 •⁠  ⁠Nombre del proyecto: CENTINELA
 •⁠  ⁠Descripción: Centinela es una plataforma modular basada en microservicios diseñada para la detección, clasificación y análisis forense de desinformación (Fake News) usando técnicas de scraping, heurística de texto y flujos DevSecOps de seguridad continua.
+nota: debe ser corrido el proyecto en Ubuntu ultima versión
 •⁠  ⁠Links:
 Github - (https://github.com/MauricioVergaraG/proyecto-centinela)
 Readme de la APP: https://github.com/MauricioVergaraG/proyecto-centinela/blob/feature/pipeline-optimization/services/frontend/README_APP.md
@@ -174,6 +175,7 @@ Proyecto en DockerHub:
 •⁠  ⁠https://hub.docker.com/repository/docker/mauriciovergara/centinela-scraper
 •⁠  ⁠https://hub.docker.com/repository/docker/mauriciovergara/centinela-frontend/general
 •⁠  ⁠https://hub.docker.com/repository/docker/mauriciovergara/centinela-api
+
 
 
 
