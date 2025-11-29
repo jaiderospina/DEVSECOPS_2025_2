@@ -133,12 +133,12 @@ Este es el núcleo del trabajo. El alumno deberá implementar y documentar cada 
 
 ...............................................................................................................................................................................................
   
-### **Grupo 5**
+## **Grupo 5**
 * Nombre del proyecto: *Scrapii - Scraping Ético con Análisis de Ciberseguridad*
 * Descripción: Scrapii es una aplicación web avanzada de scraping ético que integra análisis profundo de ciberseguridad. Diseñada para desarrolladores, analistas de seguridad y profesionales DevSecOps, la herramienta proporciona un enfoque responsable y técnicamente robusto para el análisis de sitios web.
 * Links:
 ###  Github - (https://github.com/loiz1/scrapii)
-###  Dockerhub - (https://hub.docker.com/r/loizzz/web-scrapi) ###  Dockerhub - (https://hub.docker.com/r/loizzz/web-scrapi) junto al overview ir a Tags y hacer pull de la version :latest
+### Dockerhub - (https://hub.docker.com/r/loizzz/web-scrapi) junto al overview ir a Tags y hacer pull de la version :latest
 ## Importante consumir la imagen en una red diferente a la de la universidad
 
 ...............................................................................................................................................................................................
@@ -153,6 +153,7 @@ Este es el núcleo del trabajo. El alumno deberá implementar y documentar cada 
  ## https://hub.docker.com/repository/docker/humberto329/centinela2
 
  
+
 
 
 
