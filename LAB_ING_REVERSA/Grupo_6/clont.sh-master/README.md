@@ -30,7 +30,7 @@ services:
 # Editar imagen central con una personalizada
 Se agrego otra imagen para reemplazar el icono con la imagen vista anterior, solo modificando la imagen que se encuentra en la ruta: hatsh\src\assets\images (se debe dejar con el mismo nombre para no tener errores) quedaria algo asi:
 
-![icono](https://imgur.com/psts44E.png)
+![icono](https://imgur.com/lg63Qdl.png)
 
 
 imagen utilizada:
