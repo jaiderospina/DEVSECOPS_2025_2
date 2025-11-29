@@ -135,4 +135,11 @@ Este es el núcleo del trabajo. El alumno deberá implementar y documentar cada 
 ...............................................................................................................................................................................................
 
 
-
+## Gupo 6
+ Nombre del proyect: centinela2
+ Descripción: 
+ Este código implementa un microservicio FastAPI llamado Centinela Verificador, cuyo propósito es consultar la API de Google Fact Check Tools para verificar frases, titulares o afirmaciones. En pocas palabras
+ inks:
+ ## https://github.com/Humberto776/centinela2
+ ## https://hub.docker.com/repository/docker/humberto329/centinela/tags
+ 
