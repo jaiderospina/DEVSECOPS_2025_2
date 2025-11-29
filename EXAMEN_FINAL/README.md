@@ -139,7 +139,7 @@ Este es el núcleo del trabajo. El alumno deberá implementar y documentar cada 
 * Links:
 ###  Github - (https://github.com/loiz1/scrapii)
 ###  Dockerhub - (https://hub.docker.com/r/loizzz/web-scrapi) ###  Dockerhub - (https://hub.docker.com/r/loizzz/web-scrapi) junto al overview ir a Tags y hacer pull de la version :latest
-## Importante consumir la imagen en una red difernete a la de la universidad
+## Importante consumir la imagen en una red diferente a la de la universidad
 
 ...............................................................................................................................................................................................
 
@@ -153,6 +153,7 @@ Este es el núcleo del trabajo. El alumno deberá implementar y documentar cada 
  ## https://hub.docker.com/repository/docker/humberto329/centinela2
 
  
+
 
 
 
