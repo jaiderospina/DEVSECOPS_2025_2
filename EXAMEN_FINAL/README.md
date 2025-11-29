@@ -2,8 +2,6 @@
 ## Trabajo Práctico: PROYECTO CENTINELA
 
 
-## Trabajo Práctico: PROYECTO CENTINELA
-
 **Implementación de un Pipeline DevSecOps de Ciclo Completo para una Plataforma Contenerizada de Análisis de Desinformación y OSINT (Inteligencia de Fuentes Abiertas)**
 
 ### 1. Contexto y Justificación
@@ -166,6 +164,7 @@ Link DockerHub: https://hub.docker.com/r/drincon12/proyecto-centinela-backend
 __________________________________________________________________________________________________________________________________
 
  
+
 
 
 
