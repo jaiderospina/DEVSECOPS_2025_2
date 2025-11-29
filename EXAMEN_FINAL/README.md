@@ -133,6 +133,7 @@ Este es el núcleo del trabajo. El alumno deberá implementar y documentar cada 
 * **Descripción:** El Proyecto Centinela es una solución tecnológica diseñada para combatir la desinformación digital mediante la automatización de procesos de vigilancia (OSINT) y análisis de contenido.
 * **Link Github:** https://github.com/javierprias/proyecto-centinela
 * **Link DockerHub:** https://hub.docker.com/r/javierprias/centinela-scraper y https://hub.docker.com/r/javierprias/centinela-backend
+* **Link Video:** https://uniminuto0-my.sharepoint.com/:v:/g/personal/javier_prias_uniminuto_edu_co/IQBbpkb5zFBcS7Tw8wtJOcwDAbAgAYkvDODDxq2TFR6wzOE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=C8KHRN
 
 ...............................................................................................................................................................................................
   
@@ -175,6 +176,7 @@ Proyecto en DockerHub:
 •⁠  ⁠https://hub.docker.com/repository/docker/mauriciovergara/centinela-scraper
 •⁠  ⁠https://hub.docker.com/repository/docker/mauriciovergara/centinela-frontend/general
 •⁠  ⁠https://hub.docker.com/repository/docker/mauriciovergara/centinela-api
+
 
 
 
