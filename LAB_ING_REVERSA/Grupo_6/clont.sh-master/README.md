@@ -2,6 +2,16 @@
 LAB_ING_REVERSA - G6
 Repositorio Docker: https://hub.docker.com/r/aven93/hatsh/tags
 Repositorio GitHub: https://github.com/Aven93/G6
+
+<br>
+Correr repositorio
+<br>
+
+```
+docker pull aven93/hatsh:latest
+docker run -d -p 3991:80 aven93/hatsh:latest
+```
+
 #
 <br>```Escaneo de vulnerabilidades```<br>
 
