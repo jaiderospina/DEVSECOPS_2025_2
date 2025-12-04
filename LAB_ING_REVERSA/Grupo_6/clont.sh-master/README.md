@@ -4,7 +4,7 @@ Repositorio Docker: https://hub.docker.com/r/aven93/hatsh/tags
 Repositorio GitHub: https://github.com/Aven93/G6
 
 <br>
-Correr repositorio
+Descargar imagen y correr contenedor
 <br>
 
 ```
