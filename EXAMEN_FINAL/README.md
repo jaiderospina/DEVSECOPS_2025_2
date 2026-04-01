@@ -136,6 +136,19 @@ Este es el núcleo del trabajo. El alumno deberá implementar y documentar cada 
 * **Link Video:** https://uniminuto0-my.sharepoint.com/:v:/g/personal/javier_prias_uniminuto_edu_co/IQBbpkb5zFBcS7Tw8wtJOcwDAbAgAYkvDODDxq2TFR6wzOE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=C8KHRN
 
 ...............................................................................................................................................................................................
+
+
+**Grupo 3**
+* Nombre del proyecto: *CENTINELA*
+* Descripción: Centinela es una plataforma modular basada en microservicios diseñada para la detección, clasificación y análisis forense de desinformación (Fake News) usando técnicas de scraping, heurística de texto y flujos DevSecOps de seguridad continua.
+* Links:
+Github - (https://github.com/MauricioVergaraG/proyecto-centinela)
+Readme de la APP: https://github.com/MauricioVergaraG/proyecto-centinela/blob/feature/pipeline-optimization/services/frontend/README_APP.md
+Proyecto en DockerHub: 
+* https://hub.docker.com/repository/docker/mauriciovergara/centinela-scraper
+* https://hub.docker.com/repository/docker/mauriciovergara/centinela-frontend/general
+* https://hub.docker.com/repository/docker/mauriciovergara/centinela-api
+
   
 ## **Grupo 5**
 * Nombre del proyecto: *Scrapii - Scraping Ético con Análisis de Ciberseguridad*
@@ -176,6 +189,7 @@ Proyecto en DockerHub:
 •⁠  ⁠https://hub.docker.com/repository/docker/mauriciovergara/centinela-scraper
 •⁠  ⁠https://hub.docker.com/repository/docker/mauriciovergara/centinela-frontend/general
 •⁠  ⁠https://hub.docker.com/repository/docker/mauriciovergara/centinela-api
+
 
 
 
